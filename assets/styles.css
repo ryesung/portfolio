@@ -1,0 +1,93 @@
+body {
+    margin: 0px;
+    font-family: 'Barlow', sans-serif;
+}
+
+header {
+    background-color: darkslategray;
+    border-bottom: 2cm;
+    height: 15vh;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: flex-end;
+}
+h2{
+    font-weight: 500;
+}
+
+div {
+    margin:10px 0px;
+    padding: 10px 0px;
+}
+
+
+h4 {
+    font-weight: bold;
+}
+ul{
+    padding-left: 3;
+    margin-top: 0px;
+
+ 
+}
+
+li{
+    font-weight: 300;
+    padding: 10px 0px;
+    
+}
+
+
+#main_title{
+    display: flex;
+    color: antiquewhite;
+    margin-left: 18%;
+    
+}
+#main_sub_title{
+    font-weight: 300;
+}
+
+.main_content{
+    width: 64%;
+    margin: auto;
+    
+}
+
+
+.project_date{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#first{
+    text-align: left;
+    font-weight: 100;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+
+hr {
+    border: 1px solid darkslategray;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+.yr_1{
+}
+
+.year_title{
+    font-size: 40px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.project1{
+    width: 90%;
+    margin-top: 0px;
+    padding-top: 0px;
+    border-right: .5cm solid maroon;
+}
