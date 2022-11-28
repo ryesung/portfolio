@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/assets/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;400&display=swap" rel="stylesheet">
+        <title>Document</title>
+    </head>
+<body>
+    {% extends 'base.html' %}
+{% block content %}
+    <style>
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            padding-top: 100px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: black;
+        }
+
+        /* Modal Content */
+        .modal-content {
+            position: relative;
+            background-color: #fefefe;
+            margin: auto;
+            padding: 0;
+            width: 65%;
+            max-width: 1200px;
+        }
+
+        /* The Close Button */
+        .close {
+            color: white;
+            position: absolute;
+            top: 10px;
+            right: 25px;
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #999;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* Hide the slides by default */
+        .mySlides {
+            display: none;
+        }
+
+        /* Caption text */
+        .caption-container {
+            text-align: center;
+            background-color: black;
+            padding: 2px 16px;
+            color: white;
+        }
+
+
+        img.hover-shadow {
+            transition: 0.3s;
+        }
+
+        .hover-shadow:hover {
+            cursor: zoom-in;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+  @media screen and (min-width: 900px)  {
+   p {
+    margin-left: -25%;
+  }}
+         @media screen and (min-width: 725px) and (max-width: 900px) {
+   p {
+    margin-left: -20%;
+  }}
+          @media screen and (max-width: 725px) {
+   p {
+    margin-left: -75px;
+  }}
+
+    </style>
+    <div class="container-fluid w-75" style="text-align: center;">
+            <img src="/static/images/GOS_Poster_Laurels_digital.jpg" onclick="openModal();" class="hover-shadow" style="width: 44%; min-width: 200px; ">
+
+        <p style="font-size: x-small;"><em>Poster design by <a class="default-anchor" href="https://www.typegoeshere.com">Dylan Haley</a></em></p>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img src="/static/images/GOS_Poster_Laurels_digital.jpg" style="width:100%">
+        </div>
+    </div>
+        <br>
+        <br>
+    <script>
+
+            // Open the Modal
+            function openModal() {
+                document.getElementById("myModal").style.display = "block";
+
+            }
+
+            // Close the Modal
+            function closeModal() {
+                document.getElementById("myModal").style.display = "none";
+            }
+
+        </script>
+
+
+
+
+
+
+{% endblock %}
+</body>
+</html>

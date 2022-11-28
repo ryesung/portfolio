@@ -34,9 +34,16 @@ ul{
 li{
     font-weight: 300;
     padding: 10px 0px;
+    width: 90%;
+    margin-top: 0px;
+    border-right: .5cm solid maroon;
     
 }
 
+p {
+    width:80%;
+    font-weight: 400;
+}
 
 #main_title{
     display: flex;
@@ -72,11 +79,13 @@ hr {
     border: 1px solid darkslategray;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    
 }
 
 
 
 .yr_1{
+    width:80%;
 }
 
 .year_title{
@@ -86,8 +95,9 @@ hr {
 }
 
 .project1{
-    width: 90%;
-    margin-top: 0px;
-    padding-top: 0px;
-    border-right: .5cm solid maroon;
+ 
+}
+
+li {
+
 }
