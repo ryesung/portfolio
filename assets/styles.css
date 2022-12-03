@@ -6,7 +6,10 @@ body {
 
 header {
     background-color: darkslategray;
-    border-bottom: 2cm;
+    border-bottom: 2cm;}
+    .light_font{
+        font-weight: 300;
+    }
     height: 15vh;
     box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
     display: flex;
@@ -43,7 +46,7 @@ li{
 
 p {
     width:80%;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
 }
 
@@ -53,7 +56,7 @@ p {
     margin-left: 18%;
     
 }
-#main_sub_title{
+.main_sub_title{
     font-weight: 300;
     text-align: center;
 }
@@ -150,12 +153,15 @@ hr {
     text-decoration: none;
     cursor: pointer;
 }
-
+li
 /* Hide the slides by default */
 .mySlides {
     display: none;
 }
-
+}
+.light_font{
+    font-weight: 300;
+}
 /* Caption text */
 .caption-container {
     text-align: center;
@@ -183,4 +189,8 @@ img.hover-shadow {
 
 .return_a_tag:hover {
     color: lightskyblue;
+}
+
+.emphasized {
+    font-weight: 400;
 }
