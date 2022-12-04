@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    max-width: 1600px;
+    max-width: 2200px;
     font-family: 'Barlow', sans-serif;
 }
 
@@ -122,7 +122,7 @@ hr {
     height: 100%;
     overflow: auto;
     background-color: black;
-}
+}d-flex justify-content-center 
 
 /* Modal Content */
 .modal-content {
@@ -132,6 +132,10 @@ hr {
     margin: 15px;
     width: 90%;
     max-width: 1600px;
+    
+}
+
+.modal-content{
     cursor:zoom-out;
 }
 
@@ -192,3 +196,4 @@ img.hover-shadow {
 .emphasized {
     font-weight: 400;
 }
+
