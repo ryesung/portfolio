@@ -5,12 +5,13 @@ body {
 }
 
 header {
-    background-color: darkslategray;
-    border-bottom: 2cm;
+    background-image: linear-gradient(to right, rgb(12, 34, 95),rgb(57, 57, 141),rgb(123, 166, 206),rgb(239, 249, 255),white);
+    /* border-bottom: 2cm; */
     height: 15vh;
-    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+    /* box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5); */
     display: flex;
     align-items: flex-end;
+
 }
 h2{
     font-weight: 500;
@@ -63,8 +64,10 @@ p {
     
 }
 .main_sub_title{
-    font-weight: 300;
+    font-family: 'Arvo';
+    font-weight: 700;
     text-align: center;
+    color:darkslategray
 }
 
 .main_content{
