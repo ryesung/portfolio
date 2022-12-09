@@ -1,9 +1,4 @@
-body {
-    margin: 0px;
-    padding: 0px;
-    max-width: 2200px;
-    font-family: 'Barlow', sans-serif;
-}
+
 
 header {
     background-image: linear-gradient(to right, rgb(12, 34, 95),rgb(57, 57, 141),rgb(123, 166, 206),rgb(239, 249, 255),white);
@@ -90,6 +85,8 @@ p {
 
 
 
+
+
 .project_date{
     font-size: 20px;
     font-weight: 300;
@@ -107,6 +104,7 @@ hr {
     border: 1px solid darkslategray;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    margin-right: 50px;
     
 }
 
